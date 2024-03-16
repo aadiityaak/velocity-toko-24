@@ -1,6 +1,6 @@
 <?php require_once(get_stylesheet_directory() . '/inc/part-headertop.php'); ?>
-<div class="container px-md-0">
-    <nav id="main-nav" class="navbar navbar-expand-md border-top border-bottom d-block navbar-light p-0" aria-labelledby="main-nav-label">
+<div class="container px-md-0 bg-theme">
+    <nav id="main-nav" class="navbar navbar-expand-md d-block navbar-light p-0" aria-labelledby="main-nav-label">
 
         <h2 id="main-nav-label" class="screen-reader-text">
             <?php esc_html_e('Main Navigation', 'justg'); ?>

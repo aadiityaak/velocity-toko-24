@@ -146,7 +146,7 @@ add_action('justg_before_wrapper_content', 'justg_before_wrapper_content');
 function justg_before_wrapper_content()
 {
     echo '<div class="px-2">';
-    echo '<div class="card rounded-0 border-0 p-2 container mx-auto">';
+    echo '<div class="card rounded-0 border-0 p-0 container mx-auto">';
 }
 add_action('justg_after_wrapper_content', 'justg_after_wrapper_content');
 function justg_after_wrapper_content()
