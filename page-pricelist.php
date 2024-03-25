@@ -26,7 +26,7 @@ $search_query     = new WP_Query([
         </div>
 
         <div class="row mx-0">
-            <div class="content-area col order-2" id="primary">
+            <div class="content-area col" id="primary">
                 <div class="d-flex justify-content-between align-items-center mb-4">
                     <?php the_title('<h5 class="fw-bold colortheme m-0">', '</h5>'); ?>
                 </div>

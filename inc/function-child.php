@@ -173,7 +173,7 @@ if (!function_exists('justg_right_sidebar_check')) {
         //     return;
         // }
         if (is_tax(['merk', 'category-product'])) {
-            echo '<div class="right-sidebar widget-area pe-md-2 col-sm-12 col-md-3 order-md-1 order-3 px-1" id="right-sidebar" role="complementary">';
+            echo '<div class="right-sidebar widget-area pe-md-2 col-sm-12 col-md-3" id="right-sidebar" role="complementary">';
             echo '<aside class="mb-3 d-none d-md-block">';
             echo get_velocitytoko_part('public/templates/filter');
             echo '</aside>';
@@ -182,7 +182,7 @@ if (!function_exists('justg_right_sidebar_check')) {
         }
 
 ?>
-        <div class="widget-area right-sidebar col-sm-3 order-md-1 order-3 px-1" id="right-sidebar" role="complementary">
+        <div class="widget-area right-sidebar col-sm-3 px-1" id="right-sidebar" role="complementary">
             <div class="sticky-top">
                 <?php do_action('justg_before_main_sidebar'); ?>
                 <?php dynamic_sidebar('main-sidebar'); ?>

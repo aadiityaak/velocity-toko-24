@@ -26,7 +26,7 @@ $container = velocitytheme_option('justg_container_type', 'container');
             <!-- Do the left sidebar check -->
             <?php do_action('justg_before_content'); ?>
 
-            <main class="site-main col order-2" id="main">
+            <main class="site-main" id="main">
 
                 <div class="card mb-3 bg-gray color-theme border py-2 px-3 fs-6 fw-bold">
                     <?php echo get_option('blogname') . ' - ' . get_option('blogdescription'); ?>

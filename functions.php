@@ -56,3 +56,14 @@ function vdbeli_whatsapp($atts)
 <?php
     return ob_get_clean();
 }
+
+if (!function_exists('justg_before_sitemain')) {
+    /**
+     * Before Main
+     * 
+     */
+    function justg_before_sitemain()
+    {
+        echo '<div class="content-area col" id="primary">';
+    }
+}
